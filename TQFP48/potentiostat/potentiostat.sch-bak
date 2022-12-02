@@ -1,0 +1,147 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 4675 2275 0    50   ~ 0
+1
+$Comp
+L Connector_Generic:Conn_01x24 J1
+U 1 1 638FC967
+P 3575 3450
+F 0 "J1" H 3493 2025 50  0000 C CNN
+F 1 "Conn_01x24" H 3493 2116 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x24_P1.00mm_Vertical" H 3575 3450 50  0001 C CNN
+F 3 "~" H 3575 3450 50  0001 C CNN
+	1    3575 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x24 J2
+U 1 1 6390173B
+P 7625 3350
+F 0 "J2" H 7543 1925 50  0000 C CNN
+F 1 "Conn_01x24" H 7543 2016 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x24_P1.00mm_Vertical" H 7625 3350 50  0001 C CNN
+F 3 "~" H 7625 3350 50  0001 C CNN
+	1    7625 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2450 3775 2450
+Wire Wire Line
+	4000 2350 3775 2350
+Wire Wire Line
+	4000 2250 3775 2250
+$Comp
+L AD5941:AD5941BCPZ U1
+U 1 1 638B25D9
+P 4000 2250
+F 0 "U1" H 5600 2637 60  0000 C CNN
+F 1 "AD5941BCPZ" H 5600 2531 60  0000 C CNN
+F 2 "AD5941:AD5941BCPZ" H 5600 2490 60  0001 C CNN
+F 3 "" H 4000 2250 60  0000 C CNN
+	1    4000 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2550 3775 2550
+Wire Wire Line
+	4000 2650 3775 2650
+Wire Wire Line
+	3775 2750 4000 2750
+Wire Wire Line
+	4000 2950 3775 2950
+Wire Wire Line
+	4000 3050 3775 3050
+Wire Wire Line
+	4000 3250 3775 3250
+Wire Wire Line
+	3775 3350 4000 3350
+Wire Wire Line
+	4000 3450 3775 3450
+Wire Wire Line
+	3775 3550 4000 3550
+Wire Wire Line
+	4000 3650 3775 3650
+Wire Wire Line
+	3775 3750 4000 3750
+Wire Wire Line
+	4000 3850 3775 3850
+Wire Wire Line
+	4000 3950 3775 3950
+Wire Wire Line
+	3775 4050 4000 4050
+Wire Wire Line
+	4000 4150 3775 4150
+Wire Wire Line
+	3775 4250 4000 4250
+Wire Wire Line
+	4000 4350 3775 4350
+Wire Wire Line
+	3775 4450 4000 4450
+Wire Wire Line
+	7200 4650 7200 4925
+Wire Wire Line
+	7200 4925 3775 4925
+Wire Wire Line
+	3775 4925 3775 4550
+Wire Wire Line
+	7425 2250 7200 2250
+Wire Wire Line
+	7200 2350 7425 2350
+Wire Wire Line
+	7200 2450 7425 2450
+Wire Wire Line
+	7425 2550 7200 2550
+Wire Wire Line
+	7200 2650 7425 2650
+Wire Wire Line
+	7425 2750 7200 2750
+Wire Wire Line
+	7200 2850 7425 2850
+Wire Wire Line
+	7425 2950 7200 2950
+Wire Wire Line
+	7200 3050 7425 3050
+Wire Wire Line
+	7200 3150 7425 3150
+Wire Wire Line
+	7200 3250 7425 3250
+Wire Wire Line
+	7200 3350 7425 3350
+Wire Wire Line
+	7200 3450 7425 3450
+Wire Wire Line
+	7425 3550 7200 3550
+Wire Wire Line
+	7200 3650 7425 3650
+Wire Wire Line
+	7425 3750 7200 3750
+Wire Wire Line
+	7200 3850 7425 3850
+Wire Wire Line
+	7200 3950 7425 3950
+Wire Wire Line
+	7425 4050 7200 4050
+Wire Wire Line
+	7200 4150 7425 4150
+Wire Wire Line
+	7425 4250 7200 4250
+Wire Wire Line
+	7200 4350 7425 4350
+Wire Wire Line
+	7425 4450 7200 4450
+Wire Wire Line
+	7425 4550 7200 4550
+$EndSCHEMATC

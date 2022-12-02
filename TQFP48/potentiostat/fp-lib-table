@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name AD5941)(type KiCad)(uri "F:/Breakout boards/ul_AD5941BCPZ/KiCAD/2022-12-02_15-26-34/footprints.pretty")(options "")(descr "Foorprint for AD5941 component"))
+)

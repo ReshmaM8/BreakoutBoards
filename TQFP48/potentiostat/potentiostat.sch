@@ -1,0 +1,73 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 4675 2275 0    50   ~ 0
+1
+$Comp
+L AD5941:AD5941BCPZ U1
+U 1 1 638B25D9
+P 4000 2250
+F 0 "U1" H 5600 2637 60  0000 C CNN
+F 1 "AD5941BCPZ" H 5600 2531 60  0000 C CNN
+F 2 "AD5941:AD5941BCPZ" H 5600 2490 60  0001 C CNN
+F 3 "" H 4000 2250 60  0000 C CNN
+	1    4000 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x12 J?
+U 1 1 6391DBC0
+P 7575 2750
+F 0 "J?" H 7655 2742 50  0000 L CNN
+F 1 "Conn_01x12" H 7655 2651 50  0000 L CNN
+F 2 "" H 7575 2750 50  0001 C CNN
+F 3 "~" H 7575 2750 50  0001 C CNN
+	1    7575 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x12 J?
+U 1 1 6391F2DC
+P 7575 4025
+F 0 "J?" H 7655 4017 50  0000 L CNN
+F 1 "Conn_01x12" H 7655 3926 50  0000 L CNN
+F 2 "" H 7575 4025 50  0001 C CNN
+F 3 "~" H 7575 4025 50  0001 C CNN
+	1    7575 4025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x12 J?
+U 1 1 6391FF4F
+P 3650 2850
+F 0 "J?" H 3730 2842 50  0000 L CNN
+F 1 "Conn_01x12" H 3730 2751 50  0000 L CNN
+F 2 "" H 3650 2850 50  0001 C CNN
+F 3 "~" H 3650 2850 50  0001 C CNN
+	1    3650 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x12 J?
+U 1 1 6392088E
+P 3600 4150
+F 0 "J?" H 3680 4142 50  0000 L CNN
+F 1 "Conn_01x12" H 3680 4051 50  0000 L CNN
+F 2 "" H 3600 4150 50  0001 C CNN
+F 3 "~" H 3600 4150 50  0001 C CNN
+	1    3600 4150
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
